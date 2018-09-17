@@ -1,0 +1,139 @@
+html, body {
+	background-color: 	rgb(243, 243, 243);
+	margin: 			0;
+	padding: 			0;
+	height: 			100%;
+	font-family: 		'Crimson Text', serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Rajdhani');
+
+
+
+/*
+FONTS
+font-family: 'Crimson Text', serif; Text
+font-family: 'Montserrat', sans-serif; Titles
+font-family: 'Rajdhani', sans-serif; Main Titles
+*/
+
+header, section, footer, aside, nav, main, article, figure {
+    display: 			block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 		'Rajdhani', sans-serif;
+}
+
+a {
+	text-decoration: 	none;
+	font-family: 		'Montserrat', sans-serif;
+}
+
+a, a:visited {
+	color: 				rgba(0, 0, 0, 100);
+}
+
+a:hover {
+	color: 				rgba(66, 66, 66, 100);
+}
+
+nav {
+	background: 		rgb(128, 128, 128);
+	padding: 			10px;
+	align-self: 		center;
+	position: 			fixed;
+	top: 				0px;
+	width: 				100%;
+	height: 			45px;
+}
+
+main {
+	padding: 			80px;
+	padding-bottom: 	60px;
+	text-align: 		center;
+	align-content: 		center;
+	font-family:  		'Crimson Text', serif;
+}
+
+#container {
+	min-height:  		100%;
+	position:   		relative;
+}
+
+footer {
+	position: 			absolute;
+	padding-top: 		10px;
+   	bottom: 			0;
+   	width: 				100%;
+   	height: 			50px;
+   	background: 		rgba(128, 128, 128, 0.5);
+   	text-align: 		center;
+}
+
+.centerTable {
+	margin-left: 		auto;
+	margin-right:  		auto;
+}
+
+/*
+	Part for the Nav Bar
+*/
+
+ul, ol {
+	list-style: 		none;
+}
+
+.nav {
+	padding-left: 40%;
+}
+.nav > li {
+	float: 				left;
+	width:   			10%;
+}
+.nav li a {
+	background-color: 	#000;
+	color: 				#fff;
+	text-decoration: 	none;
+	padding: 			10px 12px;
+	display: 			block;
+	text-align: 		center;
+}
+.nav li a:hover {
+	background-color: 	#434343;
+}
+.nav li ul {
+	display: 			none;
+	position: 			absolute;
+	min-width: 			140px;
+}
+.nav li:hover > ul {
+	display: 			block;
+}
+.nav li ul li {
+	position: 			relative;
+}
+.nav li ul li ul {
+	right: 				-140px;
+	top: 				0px;
+}
+
+/*
+	Article part
+*/
+
+
+article {
+	width: 				66%;
+	margin: 			0 auto;
+	border-style: 		groove;
+	border-width: 		1px;
+	border-color: 		rgb(255, 0, 0);
+	background: 		rgba(128, 128, 128, 0.5);
+	padding-left: 		40px;
+	padding-right: 		40px;
+}
+
+article p {
+	text-align: 		justify;
+}
