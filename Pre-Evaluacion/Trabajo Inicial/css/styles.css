@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Rajdhani');
+@import "../../../base_css/master.css";
 
 html, body {
-	background-color: 	rgb(243, 243, 243);
+	background-color: 	var(--silver);
 	margin: 			0;
 	padding: 			0;
 	height: 			100%;
@@ -37,7 +38,7 @@ a:hover {
 }
 
 nav {
-	background: 		rgb(128, 128, 128);
+	background: 		var(--warm-silver);
 	padding: 			10px;
 	align-self: 		center;
 	position: 			fixed;
@@ -64,7 +65,7 @@ footer {
    	bottom: 			0;
    	width: 				100%;
    	height: 			50px;
-   	background: 		rgba(128, 128, 128, 0.5);
+   	background: 		var(--warm-silver);
    	text-align: 		center;
 }
 
@@ -97,7 +98,7 @@ ul, ol {
 	text-align: 		center;
 }
 .nav li a:hover {
-	background-color: 	#434343;
+	background-color: 	var(--warm-silver);
 }
 .nav li ul {
 	display: 			none;
@@ -123,8 +124,8 @@ ul, ol {
 article {
 	width: 				66%;
 	margin: 			0 auto;
-	border: 			1px groove rgb(255, 0, 0);
-	background: 		rgba(128, 128, 128, 0.5);
+	border: 			1px groove var(--red);
+	background: 		var(--warm-silver);
 	padding-left: 		40px;
 	padding-right: 		40px;
 }
