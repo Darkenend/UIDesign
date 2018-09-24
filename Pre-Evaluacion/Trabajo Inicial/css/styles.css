@@ -1,32 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Montserrat|Rajdhani');
 @import "../../../base_css/master.css";
 
 html, body {
-	background-color: 	var(--silver);
+	background-color: 	var(--white);
 	margin: 			0;
 	padding: 			0;
 	height: 			100%;
 	font-family: 		'Crimson Text', serif;
 }
 
-/*
-FONTS
-font-family: 'Crimson Text', serif; Text
-font-family: 'Montserrat', sans-serif; Titles
-font-family: 'Rajdhani', sans-serif; Main Titles
-*/
-
 header, section, footer, aside, nav, main, article, figure {
     display: 			block;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 		'Rajdhani', sans-serif;
+    font-family:        'Audi-ExtendedBold', sans-serif;
 }
 
 a {
 	text-decoration: 	none;
-	font-family: 		'Montserrat', sans-serif;
+	font-family: 		'Audi-Normal', sans-serif;
 }
 
 a, a:visited {
@@ -35,23 +27,24 @@ a, a:visited {
 
 a:hover {
 	color: 				rgba(66, 66, 66, 100);
+    font-family:        'Audi-Light', sans-serif;
 }
 
 nav {
-	background: 		var(--warm-silver);
+	background: 		var(--silver);
 	padding: 			10px;
 	align-self: 		center;
 	position: 			fixed;
 	top: 				0;
 	width: 				100%;
-	height: 			45px;
+	height: 			46px;
 }
 
 main {
 	padding: 			80px 80px 60px;
 	text-align: 		center;
 	align-content: 		center;
-	font-family:  		'Crimson Text', serif;
+	font-family:  		'Audi-Normal', sans-serif;
 }
 
 #container {
@@ -65,8 +58,9 @@ footer {
    	bottom: 			0;
    	width: 				100%;
    	height: 			50px;
-   	background: 		var(--warm-silver);
+   	background: 		var(--silver);
    	text-align: 		center;
+    font-family:        'Audi-Light', sans-serif;
 }
 
 .centerTable {
@@ -83,22 +77,22 @@ ul, ol {
 }
 
 .nav {
-	padding-left: 40%;
+	padding-left:       40%;
 }
 .nav > li {
 	float: 				left;
 	width:   			10%;
 }
 .nav li a {
-	background-color: 	#000000;
-	color: 				#ffffff;
+	background-color:   var(--black);
+	color: 				var(--white);
 	text-decoration: 	none;
 	padding: 			10px 12px;
 	display: 			block;
 	text-align: 		center;
 }
 .nav li a:hover {
-	background-color: 	var(--warm-silver);
+	background-color: 	var(--silver);
 }
 .nav li ul {
 	display: 			none;
@@ -110,6 +104,8 @@ ul, ol {
 }
 .nav li ul li {
 	position: 			relative;
+    right:              40px;
+    width:              100%;
 }
 .nav li ul li ul {
 	right: 				-140px;
@@ -125,7 +121,7 @@ article {
 	width: 				66%;
 	margin: 			0 auto;
 	border: 			1px groove var(--red);
-	background: 		var(--warm-silver);
+	background: 		var(--silver);
 	padding-left: 		40px;
 	padding-right: 		40px;
 }
