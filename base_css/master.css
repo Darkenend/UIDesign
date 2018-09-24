@@ -1,7 +1,46 @@
+/* Extended Bold debe usarse en Titulos o Subtitulos */
+@font-face {
+    font-family: 'Audi-ExtendedBold';
+    src:    url("font/woff/AudiType-Latin-ExtendedBold.woff2") format('woff2'),
+    url("font/woff/AudiType-Latin-ExtendedBold.woff") format('woff');
+}
+
+/* Extended Normal debe usarse en Subtitulos */
+@font-face {
+    font-family: 'Audi-ExtendedNormal';
+    src:    url("font/woff/AudiType-Latin-ExtendedNormal.woff2") format('woff2'),
+    url("font/woff/AudiType-Latin-ExtendedNormal.woff") format('woff');
+}
+
+/* Bold sera usado en muy raras ocasiones */
+@font-face {
+    font-family: 'Audi-Bold';
+    src:    url("font/woff/AudiTypeScreen-Latin-Bold.woff2") format('woff2'),
+    url("font/woff/AudiTypeScreen-Latin-Bold.woff") format('woff');
+}
+
+/* Normal sera usado para Botones, Textos y Textos Interactivos */
+@font-face {
+    font-family: 'Audi-Normal';
+    src:    url("font/woff/AudiTypeScreen-Latin-Normal.woff2") format('woff2'),
+    url("font/woff/AudiTypeScreen-Latin-Normal.woff") format('woff');
+}
+
+/* Light sera usado para Textos Interactivos */
+@font-face {
+    font-family: 'Audi-Light';
+    src:    url("font/woff/AudiTypeScreen-Latin-Light.woff2") format('woff2'),
+    url("font/woff/AudiTypeScreen-Latin-Light.woff") format('woff');
+}
+
 :root {
 	--white:		rgb(255, 255, 255);
-	--black: 		rgb(0, 0, 0,);
+	--black: 		rgb(0, 0, 0);
 	--silver: 		rgb(179, 179, 179);
 	--red: 			rgb(187, 10, 48);
 	--warm-silver: 	rgb(182, 177, 169);
+}
+
+html {
+    transition-timing-function: cubic-bezier(0.75, 0.02, 0.5, 1);
 }
