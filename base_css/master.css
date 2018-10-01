@@ -44,3 +44,13 @@
 html {
     transition-timing-function: cubic-bezier(0.75, 0.02, 0.5, 1);
 }
+
+hr {
+    border:                         0;
+    width:                          100%;
+    background-image:               -webkit-linear-gradient(left, var(--silver), var(--red), var(--silver));
+    background-image:               -moz-linear-gradient(left, var(--silver), var(--red), var(--silver));
+    background-image:               -ms-linear-gradient(left, var(--silver), var(--red), var(--silver));
+    background-image:               -o-linear-gradient(left, var(--silver), var(--red), var(--silver));
+    height:                         1px;
+}
