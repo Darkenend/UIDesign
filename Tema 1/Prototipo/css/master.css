@@ -101,12 +101,23 @@ a:hover {
     transition-duration:            524ms;
 }
 
+h2 a {
+    color:                          var(--black);
+    text-decoration:                none;
+    font-family:                    'Audi-ExtendedBold', sans-serif;
+}
+
 subtitle {
     font-family:                    'Audi-ExtendedNormal', sans-serif;
 }
 
 article form {
     text-align:                     center;
+}
+
+.title_bar td a img {
+    height:                         1rem;
+    width:                          auto;
 }
 
 .title_bar {
@@ -122,7 +133,7 @@ article form {
     color:                          var(--white);
     float:                          right;
     max-width:                      46px;
-    padding:                        5px;
+    padding:                        5px 15px 5px 5px;
 }
 
 .main_zone {
