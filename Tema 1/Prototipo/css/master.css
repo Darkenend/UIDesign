@@ -44,6 +44,7 @@
 html {
     font-family:                    'Audi-Normal', sans-serif;
     transition-timing-function:     cubic-bezier(0.75, 0.02, 0.5, 1);
+    min-width:                      500px;
 }
 
 nav {
@@ -55,13 +56,15 @@ nav {
 }
 
 footer {
-    position:                       static;
+    position:                       fixed;
     width: 				            100%;
     padding-top:                    1rem;
     padding-bottom:                 0.5rem;
     background: 		            var(--silver);
     text-align: 		            center;
     font-family:                    'Audi-Light', sans-serif;
+    bottom:                         0;
+    display:                        inline-block;
 }
 
 hr {
@@ -111,15 +114,15 @@ article form {
     background-color:               var(--black);
     color:                          var(--white);
     float:                          left;
-    max-width:                      78.5%;
+    min-width:                      454px;
 }
 
 .flag_selection {
-    padding:                        5px;
     background-color:               var(--black);
     color:                          var(--white);
     float:                          right;
-    max-width:                      20%;
+    max-width:                      46px;
+    padding:                        5px;
 }
 
 .main_zone {
@@ -127,6 +130,7 @@ article form {
     height:                         100%;
     float:                          right;
     padding:                        0;
+    margin-bottom:                  3rem;
 }
 
 .main_zone article {
@@ -143,6 +147,5 @@ article form {
     width:                          200px;
     height:                         200px;
     background-color:               var(--red);
-    margin-top:                     -250px;
-    margin-bottom:                  2rem;
+    margin-bottom:                  -10rem;
 }
